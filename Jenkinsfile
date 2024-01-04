@@ -2,7 +2,7 @@ pipeline {
    agent any
    environment {
       AWS_REGION = 'us-east-1'
-      ECR_REPOSITORY = 'https://268331008390.dkr.ecr.us-east-1.amazonaws.com/code2cloud-ecr'
+      ECR_REPOSITORY = 'code2cloud-ecr:code2cloud'
       CONTAINER_NAME = 'code2cloud'
    }
     stages {
